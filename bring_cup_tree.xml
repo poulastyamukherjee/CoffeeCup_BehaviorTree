@@ -1,0 +1,11 @@
+<root BTCPP_format="4" >
+  <BehaviorTree ID="MainTree">
+    <Sequence name="root_sequence">
+      <LocateCup name="locate_cup"/>
+      <OpenGripper name="open_gripper"/>
+      <ApproachCup name="approach_cup"/>
+      <CloseGripper name="close_gripper"/>
+      <RetrieveCup name="retrieve_cup"/>
+    </Sequence>
+  </BehaviorTree>
+</root>
